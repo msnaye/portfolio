@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: maroon;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+.header-container-title{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: goldenrod;
+}
+.header-container-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.header-container-menu-li{
+    margin:1rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:450;
+    color: goldenrod;
+}
+a{
+    color:goldenrod;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: maroon;
+    background-color: goldenrod;
+    padding:0.2rem;
+    border-radius: 12px;
+}
+.hero{
+    background-image: url(./img/hero1.png);
+    
+    background-repeat: no-repeat;
+    min-height: 20vh;
+    min-width: 60vw;
+}
