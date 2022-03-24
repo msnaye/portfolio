@@ -13,7 +13,7 @@
 }
 .header-container-title{
     font-size: 3rem;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     color: goldenrod;
 }
@@ -26,7 +26,7 @@
 .header-container-menu-li{
     margin:1rem;
     font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:450;
     color: goldenrod;
 }
@@ -42,8 +42,99 @@ header nav ul li a:hover{
 }
 .hero{
     background-image: url(./img/hero1.png);
-    
     background-repeat: no-repeat;
     min-height: 20vh;
     min-width: 60vw;
+}
+
+.about-me{
+    background-color: whitesmoke;
+    margin:2rem;
+    border: 5px double maroon;
+    padding: 2.3rem;
+}
+
+.about-me-title{
+    text-align: center;
+    margin-bottom:0.5rem;
+}
+
+.about-me-text{
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    padding: 0.2rem;
+
+}
+.my-projects{
+    margin: 1rem; 
+}
+
+.my-projects-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.my-projects-container{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.project{
+    padding: 0.5rem;
+    border:5px solid maroon;
+}
+.project-name{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.project-image:hover{
+    opacity: 50%;
+}
+.project-image{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 50%; 
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.repo-btn{
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: maroon;
+    color: white;
+    font-size: 1rem;
+    border-radius: 7px;
+    outline: none;
+
+}
+.live-website-btn{
+    padding: 0.5rem;
+    margin-right: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1rem;
+    border-radius: 7px;
+    outline: none;
+    
+}
+.contact-me{
+    background-color: whitesmoke;
+    margin:2rem;
+    border: 5px double maroon;
+    padding:2rem;
+    
+}
+
+.contact-me-title{
+   text-align: center;
+ margin-bottom: 1rem;
+   
+}
+.address {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
