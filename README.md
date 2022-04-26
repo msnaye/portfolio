@@ -34,7 +34,7 @@
 - Font Awesome
 
 ## Live Website
-     https://msnaye.github.io/portfolio/
+[Link](https://msnaye.github.io/portfolio/)
      
 ## Image of Website
 ![portfolio screenshot](./img/Portfolio.png)
